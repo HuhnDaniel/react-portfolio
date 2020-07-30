@@ -10,7 +10,6 @@ class Header extends Component {
 
     handleBtnCLick = e => {
         let toggle = e.target.attributes.getNamedItem("data-toggle").value;
-        console.log(toggle);
 
         if (toggle === "hidden") {
             this.setState({

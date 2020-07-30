@@ -9,13 +9,13 @@ const resume = {
 
 function About() {
     return(
-        <main>
-            <h2 className="text-2xl">About Me</h2>
-            <hr />
+        <main className="m-4">
+            <h2 className="text-2xl py-4">About Me</h2>
+            <figure className="p-4">
+                <img src={profilePic} className="w-64 m-auto shadow-md" alt="Profile" />
+            </figure>
 
-            <img src={profilePic} className="" alt="Profile" />
-
-            <p className="">
+            <p className="py-4 px-2 text-justify leading-relaxed">
                 As a full-stack web developer, I use experience with multiple technologies to create
                 intentional and engaging sites and applications.  Previous experience in leadership
                 roles provides me with strong teamwork and communication skills necessary for working
@@ -24,10 +24,10 @@ function About() {
             </p>
             <hr />
             
-            <h3 className="text-xl">My resume</h3>
-            <article className="flex flex-row">
-                <Button  className="flex-auto text-center" to={resume.view} text="view" newTab="true" />
-                <Button className="flex-auto text-center" to={resume.download} text="download" />
+            <h3 className="text-xl py-4">My resume</h3>
+            <article className="flex flex-row mt-2">
+                <Button  to={resume.view} text="view" newTab="true" />
+                <Button to={resume.download} text="download" />
             </article>
         </main>
     );

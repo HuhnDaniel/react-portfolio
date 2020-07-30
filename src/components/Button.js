@@ -4,7 +4,7 @@ function Button({ to, newTab, text }) {
     if (newTab) {
         return (
             <div className="flex-auto text-center" id="resume-linkBtn">
-                <a href={to} target="_blank" rel="noopener noreferrer">
+                <a href={to} target="_blank" rel="noopener noreferrer" className="bg-gray-200 px-4 py-2 rounded-lg">
                     {text}
                 </a>
             </div>
@@ -12,7 +12,7 @@ function Button({ to, newTab, text }) {
     } else {
         return (
             <div className="flex-auto text-center" id="resume-linkBtn">
-                <a href={to}>
+                <a href={to} className="bg-gray-200 px-4 py-2 rounded-lg">
                     {text}
                 </a>
             </div>

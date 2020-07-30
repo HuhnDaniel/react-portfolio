@@ -1,10 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Navicon from "./Navicon";
 
 function Header() {
     return (
-        <header className="flex flex-row">
-            <h1 className="flex-auto text-center text-3xl font-semibold p-4">Daniel Moody-Huhn</h1>
-            <h1 className="flex-auto text-center text-3xl font-semibold p-4">☰</h1>
+        <header className="bg-gray-200">
+            <div className="flex flex-row">
+                <Link className="flex-auto text-center text-3xl p-4" to="/">Daniel Moody-Huhn</Link>
+                <Navicon />
+            </div>
         </header>
     );
 }

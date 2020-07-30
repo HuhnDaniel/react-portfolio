@@ -757,5 +757,9 @@ module.exports = {
     animation: ['responsive'],
   },
   corePlugins: {},
-  plugins: [],
+  plugins: [
+    //   require('tailwindcss-transforms'),
+    //   require('tailwindcss-transitions'),
+    //   require('tailwindcss-border-gradients')
+  ],
 }

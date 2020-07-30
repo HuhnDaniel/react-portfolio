@@ -9,24 +9,22 @@ function Portfolio() {
 
             <article className="">
                 <h3 className="text-xl py-4">Project Boolean</h3>
-                <figure>
-                    <a className="" href="https://project-boolean.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                        <img className="" data-project="project-boolean" src={projectBooleanLogo} alt="Project Boolean link" />
-                    </a>
-                </figure>
 
-                <a href="https://github.com/HuhnDaniel/campsite-finder/tree/master" className="" target="_blank" rel="noopener noreferrer">View on Github.</a>
+                <a className="" href="https://project-boolean.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                    <img className="" data-project="project-boolean" src={projectBooleanLogo} alt="Project Boolean link" />
+                </a>
+
+                <a href="https://github.com/HuhnDaniel/campsite-finder/tree/master" className="text-blue-500" target="_blank" rel="noopener noreferrer">View on Github.</a>
             </article>
 
             <article className="">
                 <h3 className="text-xl py-4">Campsite Finder</h3>
-                <figure>
-                    <a className="" href="https://huhndaniel.github.io/campsite-finder/" target="_blank" rel="noopener noreferrer">
-                        <img className="" data-project="campsite-finder" src={campsiteFinderLogo} alt="Campsite Finder link" />
-                    </a>
-                </figure>
 
-                <a href="https://github.com/HuhnDaniel/campsite-finder/tree/master" className="" target="_blank" rel="noopener noreferrer">View on Github.</a>
+                <a className="" href="https://huhndaniel.github.io/campsite-finder/" target="_blank" rel="noopener noreferrer">
+                    <img className="" data-project="campsite-finder" src={campsiteFinderLogo} alt="Campsite Finder link" />
+                </a>
+
+                <a href="https://github.com/HuhnDaniel/campsite-finder/tree/master" className="text-blue-500" target="_blank" rel="noopener noreferrer">View on Github.</a>
             </article>
         </main>
     );

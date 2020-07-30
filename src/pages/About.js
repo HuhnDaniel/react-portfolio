@@ -10,7 +10,8 @@ const resume = {
 function About() {
     return(
         <main className="m-4">
-            <h2 className="text-2xl py-4">About Me</h2>
+            <h2 className="text-2xl py-2">About Me</h2>
+            
             <figure className="p-4">
                 <img src={profilePic} className="w-64 m-auto shadow-md" alt="Profile" />
             </figure>

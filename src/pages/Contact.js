@@ -4,7 +4,7 @@ import linkedinLogo from "../assets/images/LI-Logo.png";
 
 function Contact() {
     return(
-        <main className="m-4">
+        <main className="mx-auto my-4 w-5/6 sm:w-2/3 md:w-1/2 lg:w-1/3">
             <h2 className="text-2xl py-2">Contact Me</h2>
 
             <article className="flex flex-row">

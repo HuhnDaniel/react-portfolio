@@ -2,7 +2,7 @@ import React from "react";
 
 function ProjectCard({ name, deploy, github, logo }) {
     return (
-        <article className="bg-gray-200 rounded-md mx-auto my-4 p-4 h-80 w-80">
+        <article className="bg-navyBlue rounded-md mx-auto my-4 p-4 h-80 w-80">
             <h3 className="text-xl pb-4">{name}</h3>
 
             <figure className="flex items-center mx-auto align-middle h-48 w-48">

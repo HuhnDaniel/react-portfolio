@@ -28,7 +28,7 @@ function About() {
             </p>
             
             <h3 className="text-xl py-4">My resume</h3>
-            <article className="flex flex-row mt-2">
+            <article className="flex flex-row mt-2 text-warmYellow">
                 <Button  to={resume.view} text="view" newTab="true" />
                 <Button to={resume.download} text="download" />
             </article>

@@ -24,7 +24,7 @@ class Header extends Component {
 
     render() {
         return (
-            <header className="bg-gray-200">
+            <header className="bg-navyBlue text-warmYellow">
                 <div className="flex flex-row">
                     <Link className="flex-auto text-center text-3xl p-4" to="/">Daniel Moody-Huhn</Link>
                     <Navicon handleMenuToggle={this.handleMenuToggle} menuToggle={this.state.menuToggle} />

@@ -21,7 +21,9 @@ npm start
 ```
 ## Technologies
 - HTML, CSS, and Javascript
+- NodeJS https://nodejs.org/en/
 - ReactJS https://reactjs.org/
+- Tailwindcss https://tailwindcss.com/
 ## Usage
 This is my personal page which directs visitors to my resume, projects, and professional social media.
 ## Contributing
